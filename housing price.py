@@ -1,7 +1,7 @@
 import quandl
 import dtale
 
-quandl.ApiConfig.api_key = 'qNQJDmCwv5yj1fwRrysj'
+quandl.ApiConfig.api_key = 'GETUROWN'
 my_table = quandl.get_table('ZILLOW/DATA', region_id='91253')
 
 my_table_2 = quandl.get_table('ZILLOW/REGIONS')
